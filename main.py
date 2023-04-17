@@ -29,7 +29,7 @@ async def get_score_count(plat:str,scored:float,anio:int):
     try:
         if plat.lower() in df.Plataforma.unique():
             df_temp=df.loc[:,['Plataforma','type','release_year','score']]
-            return f'Peliculas de {plat.capitalize()}: {len(df_temp[((df_temp.release_year==anio)&(df_temp.type=="movie")&(df_temp.Plataforma==plat.lower())&(df_temp.score>scored))])}'
+            return {f'Peliculas de {plat.capitalize()}': len(df_temp[((df_temp.release_year==anio)&(df_temp.type=="movie")&(df_temp.Plataforma==plat.lower())&(df_temp.score>scored))])}
         else:
             return 'Ingreso una plataforma incorrecta'
     except Exception:
@@ -43,7 +43,7 @@ async def get_count_platform(plat:str):
     try:
         if plat.lower() in df.Plataforma.unique():
             df_temp=df.loc[:,['Plataforma','type']]
-            return f'Paliculas {plat.capitalize()}: {len(df_temp[((df_temp.Plataforma==plat.lower())&(df_temp.type=="movie"))])}'
+            return {f'Paliculas {plat.capitalize()}':len(df_temp[((df_temp.Plataforma==plat.lower())&(df_temp.type=="movie"))])}
         else:
             return f'Ingreso una plataforma incorrecta'
     except Exception:
@@ -84,7 +84,7 @@ async def get_actor(plataforma:str,anio:int):
         if plataforma.lower() in df_actores.Plataforma.unique():
             indice= df_actores[((df_actores.Plataforma==plataforma.lower())&(df_actores.Anios==anio))].Cantidad.idxmax()
             #return df_actores.iloc[indice].to_dict()
-            return df_actores.iloc[indice].Actor
+            return {'Actor':df_actores.iloc[indice].Actor}
         elif plataforma.lower()=='hulu':
             return'La Plataforma de Hulu no posee actores'
         else:
