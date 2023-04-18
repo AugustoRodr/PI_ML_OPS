@@ -16,4 +16,9 @@ Posterior al procesamientos de datos se unifican la informacion para que al mome
 
 Las Querys solicitadas para este proyecto son las siguientes:
 
-1. Pelicula con mayor duracion segun año, plataforma (Amazon,Netflix,Hulu,Disney) y tipo de duracion (Min, Season/s)
+1. Pelicula con mayor duracion segun año, plataforma (Amazon,Netflix,Hulu,Disney) y tipo de duracion (Min, Season/s).
+2. Cantidad de **peliculas** segun plataforma (Amazon,Netflix,Hulu,Disney), año y con un puntaje mayor a XX (0-5).
+3. Cantidad de pelicula segun plataforma (Amazon,Netflix,Hulu,Disney).
+4. Actor que mas se repite segun año y plataforma (Amazon,Netflix,Hulu,Disney).
+5. Cantidad de contenido (todo lo disponible en streaming) que se publicó segun año y pais.
+6. Cantidad de contenido (todo lo disponible en streaming) segun el rating de audiencia dado (Ej: pg-13, tv-ma, pg, tv-14, etc).
