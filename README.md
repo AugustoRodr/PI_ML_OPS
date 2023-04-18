@@ -16,4 +16,4 @@ Posterior al procesamientos de datos se unifican la informacion para que al mome
 
 Las Querys solicitadas para este proyecto son las siguientes:
 
-1- Pelicula con mayor duracion segun año, plataforma (Amazon,Netflix,Hulu,Disney) y tipo de duracion (Min, Season/s)
+1. Pelicula con mayor duracion segun año, plataforma (Amazon,Netflix,Hulu,Disney) y tipo de duracion (Min, Season/s)
