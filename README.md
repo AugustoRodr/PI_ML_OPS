@@ -1,6 +1,6 @@
 # Proyecto indivicual N°1
 
-El proyecto consiste en la descarga, pre-preparacion, procesamiento de datos y desarrollo de una API que disponibilice la informacin de la empresa.
+El proyecto consiste en la descarga, pre-preparacion, procesamiento de datos y desarrollo de una API que disponibilice la informacin de la empresa. Para esto usaremos las herramientas de FastApi para la creacion de API, Python para el procesamiento de la imformacion y Render para el deploy de la API.
 
 La informacion que se utilizara esta localizada en la carpeta **datasets**.
 
@@ -22,3 +22,9 @@ Las Querys solicitadas para este proyecto son las siguientes:
 4. Actor que mas se repite segun año y plataforma (Amazon,Netflix,Hulu,Disney).
 5. Cantidad de contenido (todo lo disponible en streaming) que se publicó segun año y pais.
 6. Cantidad de contenido (todo lo disponible en streaming) segun el rating de audiencia dado (Ej: pg-13, tv-ma, pg, tv-14, etc).
+
+Una vez creada la API con Fasapi se procede a realizar el deploy en Render.
+
+Link Render: https://pi-henry.onrender.com/docs
+
+Link Video:
