@@ -27,4 +27,4 @@ Una vez creada la API con Fasapi se procede a realizar el deploy en Render.
 
 Link Render: https://pi-henry.onrender.com/docs
 
-Link Video en drive: https://drive.google.com/file/d/1DQQMoPZ9lgXmROxHm0r7uKOC-zDyOgiu/view?usp=share_link
+Link Video en drive: https://drive.google.com/drive/folders/10kGB_X9jxY1sOXJFwfnO8BWFj4_hBAv6?usp=share_link
