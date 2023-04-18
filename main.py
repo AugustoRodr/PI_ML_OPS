@@ -134,7 +134,7 @@ async def prod_per_county(tipo:str,pais:str,anio:int):
 @app.get('/get_contents')
 async def get_contents(rating:str):
     try:
-        return f'Total de Rating {rating}: {len(df[df.rating==rating])}'
+        return {f'Total de Rating {rating}': len(df[df.rating==rating])}
     except Exception:
         return 'ERROR. Revise los parametros ingresados.'
     
